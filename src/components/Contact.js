@@ -7,14 +7,14 @@ export default function Contact() {
                     echoing through the timeless expanse, awaiting their destiny to be heard
                     or to fade into the eternal abyss.
                 </p>
-                <form>
-                    <label>Full Name</label>
-                    <input type="text" placeholder="Enter your name"></input>
-                    <label>Email</label>
-                    <input type="email" placeholder="Enter your email"></input>
-                    <textarea placeholder="Enter Your Messsage">
-                    </textarea>
-                </form>
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name"></input>
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email"></input>
+                <label>Message</label>
+                <textarea placeholder="Enter Your Messsage">
+                </textarea>
+                <button>Submit</button>
             </div>
         </section>
     );
