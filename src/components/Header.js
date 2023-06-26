@@ -19,7 +19,7 @@ export default function Header({ cartItems, setCarHidden }) {
                 }}>
                     cart
                     <div className="num-of-items">
-                        {cartItems.length}
+                        {cartItems}
                     </div>
                 </div>
             </div>

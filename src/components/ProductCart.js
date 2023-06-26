@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function ProductCart({ isHidden, onClose, currentProduct, onAddToCart }) {
+export default function ProductCart({ isHidden, onClose, currentProduct, onAddToCart, currentImage }) {
     let cartHidden = (isHidden) ? "hidden" : "";
     let cartClass = `product-cart ${cartHidden}`;
     let [productQuantity, setProductQuantity] = useState(1);
@@ -8,14 +8,13 @@ export default function ProductCart({ isHidden, onClose, currentProduct, onAddTo
         setProductQuantity(count);
     }
     return (
-        // <section className="product-cart hidden">
         <section className={cartClass}>
             <div className="add-product-cart">
                 <div onClick={() => {
                     onClose(true)
                 }} className="close-product-cart">X</div>
                 <div className="product-cart-image">
-                    <img alt="Some Image"></img>
+                    <img alt="Some Image" src={currentImage}></img>
                 </div>
                 <div className="product-cart-detail">
                     <p>{currentProduct.productName}</p>

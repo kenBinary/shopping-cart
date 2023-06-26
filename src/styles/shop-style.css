@@ -90,8 +90,8 @@ header > .user-actions > #user-cart > .num-of-items {
   row-gap: 5px;
 }
 .shop-section > .item-card > .image-container {
+  height: 80%;
   flex-grow: 1;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,11 +99,9 @@ header > .user-actions > #user-cart > .num-of-items {
 .shop-section > .item-card > .image-container > img {
   background-color: green;
   width: 50%;
-  height: 50%;
 }
 .shop-section > .item-card > .image-container > img:hover {
-  width: 100%;
-  height: 100%;
+  width: 70%;
 }
 .shop-section > .item-card > .item-action {
   display: flex;
@@ -111,6 +109,7 @@ header > .user-actions > #user-cart > .num-of-items {
   justify-content: center;
   align-items: center;
   row-gap: 5px;
+  height: 20%;
 }
 .shop-section > .item-card > .item-action > button {
   border: none;
@@ -281,6 +280,7 @@ header > .user-actions > #user-cart > .num-of-items {
   position: relative;
 }
 .item-cart > .cart-widget > .close-widget {
+  cursor: pointer;
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
@@ -302,23 +302,24 @@ header > .user-actions > #user-cart > .num-of-items {
 }
 .item-cart > .cart-widget > .cart-items > .cart-products {
   height: 100px;
-  outline: 1px solid black;
   display: grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 35% 50%;
   grid-template-rows: 1fr 1fr;
   flex-wrap: wrap;
+  border-bottom: 1px solid #011b2d;
 }
-.item-cart > .cart-widget > .cart-items > .cart-products > * {
-  outline: 1px solid black;
-}
-.item-cart > .cart-widget > .cart-items > .cart-products > :nth-child(1) {
+.item-cart > .cart-widget > .cart-items > .cart-products > :first-child {
   grid-column: 1/2;
-  grid-row: 1/-1;
-}
-.item-cart > .cart-widget > .cart-items > .cart-products > :nth-child(2), .item-cart > .cart-widget > .cart-items > .cart-products :nth-child(3) {
+  grid-row: 1/3;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.item-cart > .cart-widget > .cart-items > .cart-products > :nth-child(3),
+.item-cart > .cart-widget > .cart-items > .cart-products :nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .item-cart > .cart-widget > .item-total {
   border-top: 1px solid #011b2d;

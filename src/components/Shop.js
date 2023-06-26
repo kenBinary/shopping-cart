@@ -1,11 +1,11 @@
 import ItemCard from "./ItemCard";
-export default function Shop({ products, onAddtoCart }) {
+export default function Shop({ productImages, products, onAddtoCart }) {
     return (
         <section className="shop-section">
             {
                 products.map((element, index) => {
-                    return <ItemCard product={element} key={element.id} onAddToCart={() => {
-                        onAddtoCart(false, element)
+                    return <ItemCard productImage={productImages[index]} product={element} key={element.id} onAddToCart={() => {
+                        onAddtoCart(false, element, productImages[index])
                     }}></ItemCard>
                 })
             }
