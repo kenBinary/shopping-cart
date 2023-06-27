@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.bee90007.css",
-    "main.js": "/my-app/static/js/main.71a319e4.js",
-    "static/media/everything.gif": "/my-app/static/media/everything.4a4f78fbf4e981044478.gif",
-    "static/media/colorado.png": "/my-app/static/media/colorado.2c6effa148bea2e0db08.png",
-    "static/media/reginald.png": "/my-app/static/media/reginald.c45d099f1b1d9a71de8b.png",
-    "static/media/shipwithlegs.png": "/my-app/static/media/shipwithlegs.7717093b369aa9fb1949.png",
-    "static/media/void.png": "/my-app/static/media/void.a3db4810cd9b81ab3b2c.png",
-    "static/media/mindanao.png": "/my-app/static/media/mindanao.56a8e526de8448fcd5ec.png",
-    "static/media/gradient.png": "/my-app/static/media/gradient.3554bcc5ea467adb2060.png",
-    "static/media/ghana.png": "/my-app/static/media/ghana.332bfaa3281b251fa746.png",
-    "index.html": "/my-app/index.html",
-    "main.bee90007.css.map": "/my-app/static/css/main.bee90007.css.map",
-    "main.71a319e4.js.map": "/my-app/static/js/main.71a319e4.js.map"
+    "main.css": "/shopping-cart/static/css/main.bee90007.css",
+    "main.js": "/shopping-cart/static/js/main.1bd931e5.js",
+    "static/media/everything.gif": "/shopping-cart/static/media/everything.4a4f78fbf4e981044478.gif",
+    "static/media/colorado.png": "/shopping-cart/static/media/colorado.2c6effa148bea2e0db08.png",
+    "static/media/reginald.png": "/shopping-cart/static/media/reginald.c45d099f1b1d9a71de8b.png",
+    "static/media/shipwithlegs.png": "/shopping-cart/static/media/shipwithlegs.7717093b369aa9fb1949.png",
+    "static/media/void.png": "/shopping-cart/static/media/void.a3db4810cd9b81ab3b2c.png",
+    "static/media/mindanao.png": "/shopping-cart/static/media/mindanao.56a8e526de8448fcd5ec.png",
+    "static/media/gradient.png": "/shopping-cart/static/media/gradient.3554bcc5ea467adb2060.png",
+    "static/media/ghana.png": "/shopping-cart/static/media/ghana.332bfaa3281b251fa746.png",
+    "index.html": "/shopping-cart/index.html",
+    "main.bee90007.css.map": "/shopping-cart/static/css/main.bee90007.css.map",
+    "main.1bd931e5.js.map": "/shopping-cart/static/js/main.1bd931e5.js.map"
   },
   "entrypoints": [
     "static/css/main.bee90007.css",
-    "static/js/main.71a319e4.js"
+    "static/js/main.1bd931e5.js"
   ]
 }
